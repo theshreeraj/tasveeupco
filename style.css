@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main_container{
+    width: 100vw;
+    height: 220vh;
+    background: linear-gradient(-45deg, #2964c4, #9735d8, #ce441a, #d8511c);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+
+  img{
+    width:300px;
+  }
+
+h1{
+    font-family: 'Mandali', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: 'Mandali', sans-serif;
+} 
+
+.circleone{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-top: 300px;
+    margin-left: 230px;
+    z-index: 20;
+}
+
+.circletwo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    z-index: 500;
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+.container2{
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -400px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    z-index: 3000;
+}
+
+h3{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+    color: rgba(255,255,255,0.5);
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+    color: rgba(255,255,255,0.5);
+} 
+
+@media only screen and (max-width: 600px) {
+    .main_container{
+        width: 100vw;
+        height: 230vh;
+        background: linear-gradient(-45deg, #2964c4, #9735d8, #ce441a, #d8511c);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  img{
+    width:150px;
+  }
+
+h1{
+    font-family: 'Mandali', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: 'Mandali', sans-serif;
+} 
+
+
+.circleone{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-top: 550px;
+    margin-left: 20px;
+    z-index: 20;
+}
+
+.circletwo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    z-index: 500;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.container2{
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+
+h3{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+}
+
+p{
+    font-size: 10px;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+} 
+
+
+    
+}
+
+
+@media only screen and (max-width: 600px) and (min-height: 800px) {
+    .main_container{
+        width: 100vw;
+        height: 200vh;
+        background: linear-gradient(-45deg, #2964c4, #9735d8, #ce441a, #d8511c);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  img{
+    width:150px;
+  }
+
+h1{
+    font-family: 'Mandali', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: 'Mandali', sans-serif;
+} 
+
+
+.circleone{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-top: 550px;
+    margin-left: 20px;
+    z-index: 20;
+}
+
+.circletwo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    z-index: 500;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.container2{
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+
+h3{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+}
+
+p{
+    font-size: 10px;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+} 
+
+
+    
+}
+
+
+
+
+/* compatibility for ipad  */
+@media only screen and (min-device-width: 650px) and (max-width: 1100px){
+    .main_container{
+        width: 100vw;
+        height: 220vh;
+        background: linear-gradient(-45deg, #2964c4, #9735d8, #ce441a, #d8511c);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    
+
+    
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  img{
+    width: 250px;
+  }
+
+h1{
+    font-family: 'Mandali', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    color: #fff;
+    font-family: 'Mandali', sans-serif;
+} 
+
+
+.circleone{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    margin-top: 800px;
+    margin-left: 70px;
+    z-index: 20;
+}
+
+.circletwo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    z-index: 500;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+
+.container2{
+    width: 300px;
+    height: 350px;
+    background-color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -450px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+} 
+
+
+    
+}
+
+
+
+
+.box{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50);
+}
+
+.box span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+
+.box span:nth-child(2)
+{
+    animation-delay: -0.2s;
+    transform: rotate(45deg) translate(-20px, -20px) ;
+}
+
+.box span:nth-child(3)
+{
+    animation-delay: -0.4s;
+}
+
+@keyframes animate{
+    0%
+    {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px) ;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px) ;
+    }
+}
+
+/* -------------------------------------footer css ---------------------------------------*/
+
+
+.text p
+{
+    margin-top: 100px;
+    font-size: 0.9rem;
+    color: #d8d8d8;
+}
+
+.social_links
+{
+
+    background: rgba(255,255,255,0.1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social_links .combo
+{
+    transform: scale(0.9);
+    transition: 0.4s ease-in;
+    margin: 0 0.5rem;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+}
+.combo .circle
+{
+    color: rgba(255,255,255,0.1);
+    transition: 0.4s ease-in;
+    font-size: 3em;
+}
+.combo .icon
+{
+    color: rgba(255,255,255,0.5);
+    font-size: 2rem;
+    transform: translateY(1px);
+    transition: 0.2s ease-in;
+}
+.combo:hover
+{
+    transform: scale(1.1);
+}
+.combo:hover , .combo:hover .icon
+{
+    color:white;
+}
+.ig:hover , .ig:hover .circle
+{
+    color:#e91e63;
+}
+.fb:hover , .fb:hover .circle
+{
+    color:#2196f3;
+}
+.yt:hover , .yt:hover .circle
+{
+    color:#f44336;
+}
+.tw:hover , .tw:hover .circle
+{
+    color:#2196f3;
+}
+.gt:hover , .gt:hover .circle{
+    color: #1f1f1f;
+}
+
